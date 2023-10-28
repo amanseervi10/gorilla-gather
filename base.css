@@ -1,0 +1,89 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f0f0f0;
+	margin: 0px;
+	overflow: hidden;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.art{
+	width: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+canvas {
+	width:100%;
+	height:100%;
+	cursor: pointer;
+}
+
+#online{	
+	position: absolute;
+	bottom: 2em;
+	right: 1em;
+	margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #413f3f;
+}
+
+.info h1 {
+	font-weight: 400;
+	font-size: 2em;
+	color: #4A9DE7;
+	text-transform:uppercase;
+	margin:0;
+	line-height: 1;
+}
+.info {
+	position: absolute;
+	bottom: 1em;
+	left: 1em;	
+}
+.info p {
+    margin: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #636161;
+    letter-spacing: 0.05em;
+}
+
+
+@media screen and (min-width:1200px) {
+	.info {
+		font-size:1.3em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.info {
+		font-size:0.6em;
+		width:100%;
+		text-align:center;
+		right:0;
+	}
+}
+
+.info {
+	padding: 0 2em;
+	text-align:center;
+}
+
+.message {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	margin-top: -0.5em;
+	font-size: 1.7em;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(74, 157, 231, 0.90);
+	padding: 0 6%;
+	pointer-events:none;
+}

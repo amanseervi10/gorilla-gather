@@ -1,0 +1,51 @@
+.message {
+	cursor:pointer;
+}
+
+body{
+	display: flex;
+}
+
+.video-container {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+	visibility: hidden;
+}
+
+video {
+    max-width: 100%;
+    max-height: 50%; /* Each video takes 50% of the container height */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    flex: 1;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #1d8ff2;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+	font-weight: 500;
+	font-size: 1em;
+}
+
+button:hover{
+	opacity: 0.8;
+}

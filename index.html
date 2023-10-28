@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gorilla Gather</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css' />
+		<link href='base.css' rel='stylesheet' type='text/css' />
+		<link href='style.css' rel='stylesheet' type='text/css' />
+		
+		<!-- <meta http-equiv="Content-Tyspe" content="text/html; charset=UTF-8"> -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<script>
+			var THREE = {};
+			var PERLIN = {};
+		</script>
+		<script src='./modules/jquery-2.1.1.min.js'></script>
+		<script src='./modules/Vector2.js'></script>
+	</head>
+	<body>
+		<div id='container'>
+			<div class="art">
+				<canvas></canvas>
+				<p id="online"></p>
+			</div>
+			
+            <div class="video-container">
+				<video id="webcamVideo" autoplay playsinline></video>
+				<video id="remoteVideo" autoplay playsinline></video>
+				<div class="buttons">
+					<button id="hangupButton" disabled>Hangup</button>
+					<button id="randomButton" disabled>Random Connect</button>
+				</div>
+			</div>
+			
+				
+		</div>
+		<div class='info'>
+			<h1>Gorilla Gather</h1>
+			<p>Let the takeover begin</p>
+		</div>
+		<input id="callInput" type="hidden"/>
+		<div class='message'>Initiate The Gathering</div>
+		<script src='script.js'></script>
+		<script type="module" src='chat.js'></script>
+	</body>
+</html>
