@@ -275,5 +275,3 @@ window.addEventListener('beforeunload', (e)=>{
 webcamenable();
 
 update_online();
-
-
