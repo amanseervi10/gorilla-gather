@@ -3,14 +3,24 @@ import './style.css';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
+// const firebaseConfig = {
+//   apiKey: "AIzaSyC2o0TdRJwsrrzchpo1lMh6A6emHEmQ2n0",
+//   authDomain: "omegle-backend.firebaseapp.com",
+//   projectId: "omegle-backend",
+//   storageBucket: "omegle-backend.appspot.com",
+//   messagingSenderId: "1031690665243",
+//   appId: "1:1031690665243:web:9eb0fd20f956efa6b467be",
+//   measurementId: "G-DHWJTBH13N"
+// };
+
 const firebaseConfig = {
-  apiKey: "AIzaSyC2o0TdRJwsrrzchpo1lMh6A6emHEmQ2n0",
-  authDomain: "omegle-backend.firebaseapp.com",
-  projectId: "omegle-backend",
-  storageBucket: "omegle-backend.appspot.com",
-  messagingSenderId: "1031690665243",
-  appId: "1:1031690665243:web:9eb0fd20f956efa6b467be",
-  measurementId: "G-DHWJTBH13N"
+  apiKey: "AIzaSyADDBFSMHzSQSZCKk0-SbyAjQYC1nqz7ww",
+  authDomain: "omegle-2-c8fd3.firebaseapp.com",
+  projectId: "omegle-2-c8fd3",
+  storageBucket: "omegle-2-c8fd3.appspot.com",
+  messagingSenderId: "527152652916",
+  appId: "1:527152652916:web:9a0fc11288a5a53975a721",
+  measurementId: "G-79NG9KXG8H"
 };
 
 
