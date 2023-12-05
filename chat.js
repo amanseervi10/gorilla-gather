@@ -14,14 +14,15 @@ import 'firebase/firestore';
 // };
 
 const firebaseConfig = {
-  apiKey: "AIzaSyADDBFSMHzSQSZCKk0-SbyAjQYC1nqz7ww",
-  authDomain: "omegle-2-c8fd3.firebaseapp.com",
-  projectId: "omegle-2-c8fd3",
-  storageBucket: "omegle-2-c8fd3.appspot.com",
-  messagingSenderId: "527152652916",
-  appId: "1:527152652916:web:9a0fc11288a5a53975a721",
-  measurementId: "G-79NG9KXG8H"
+  apiKey: "AIzaSyCjHzEzc8HT-6yh5BIOeaxtbyvKzZYiWK8",
+  authDomain: "omegle-se.firebaseapp.com",
+  projectId: "omegle-se",
+  storageBucket: "omegle-se.appspot.com",
+  messagingSenderId: "986541943152",
+  appId: "1:986541943152:web:dead6678823e27d1af87b5",
+  measurementId: "G-9W8EX2RL3Y"
 };
+
 
 
 if (!firebase.apps.length) {
