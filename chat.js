@@ -13,16 +13,25 @@ import 'firebase/firestore';
 //   measurementId: "G-DHWJTBH13N"
 // };
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCjHzEzc8HT-6yh5BIOeaxtbyvKzZYiWK8",
-  authDomain: "omegle-se.firebaseapp.com",
-  projectId: "omegle-se",
-  storageBucket: "omegle-se.appspot.com",
-  messagingSenderId: "986541943152",
-  appId: "1:986541943152:web:dead6678823e27d1af87b5",
-  measurementId: "G-9W8EX2RL3Y"
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyCjHzEzc8HT-6yh5BIOeaxtbyvKzZYiWK8",
+//   authDomain: "omegle-se.firebaseapp.com",
+//   projectId: "omegle-se",
+//   storageBucket: "omegle-se.appspot.com",
+//   messagingSenderId: "986541943152",
+//   appId: "1:986541943152:web:dead6678823e27d1af87b5",
+//   measurementId: "G-9W8EX2RL3Y"
+// };
 
+const firebaseConfig = {
+  apiKey: "AIzaSyCYpVCbS6-rKz8W14ZdMjztZBjqqB9WaRc",
+  authDomain: "gorilla-gather-94d90.firebaseapp.com",
+  projectId: "gorilla-gather-94d90",
+  storageBucket: "gorilla-gather-94d90.appspot.com",
+  messagingSenderId: "723231945287",
+  appId: "1:723231945287:web:e6bddfb053e2081b7f7762",
+  measurementId: "G-011N1PYV4E"
+};
 
 
 if (!firebase.apps.length) {
